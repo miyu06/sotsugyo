@@ -21,14 +21,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5K-Wo-9le">
-                                <rect key="frame" x="166" y="472" width="62" height="35"/>
+                                <rect key="frame" x="16" y="82" width="361" height="759"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="Inm-j8-rMg" kind="show" id="jQc-PT-jqH"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start1" translatesAutoresizingMaskIntoConstraints="NO" id="0NP-GX-mgG">
+                                <rect key="frame" x="67" y="397" width="258" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -36,14 +40,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40" y="15"/>
+            <point key="canvasLocation" x="38.931297709923662" y="14.788732394366198"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Fct-LL-sYz">
             <objects>
-                <viewController id="Inm-j8-rMg" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Inm-j8-rMg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KKX-P0-ae5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="z7C-2i-7fr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -57,6 +61,7 @@
     </scenes>
     <resources>
         <image name="daimei" width="524" height="496"/>
+        <image name="start1" width="524" height="496"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
