@@ -140,6 +140,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sonoyamatakeru" translatesAutoresizingMaskIntoConstraints="NO" id="Pnm-zA-nuc">
+                                <rect key="frame" x="29" y="45" width="336" height="787"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="oR9-dF-FHW">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -154,7 +158,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="BsX-sK-UOb" kind="show" id="uaF-VQ-Cbd"/>
+                                    <segue destination="5Zf-V2-iLA" kind="show" id="LMv-FO-otH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtT-vB-3tm">
@@ -163,7 +167,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="5Zf-V2-iLA" kind="show" id="AEw-P4-c1Y"/>
+                                    <segue destination="BsX-sK-UOb" kind="show" id="X8d-dU-WXZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -184,6 +188,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="satoutakashi" translatesAutoresizingMaskIntoConstraints="NO" id="aHS-9t-v6R">
+                                <rect key="frame" x="29" y="45" width="336" height="787"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-hP-nsb">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -198,7 +206,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="SNf-mB-uyN" kind="show" id="8zZ-5Y-L2T"/>
+                                    <segue destination="f1f-rw-75c" kind="show" id="IR2-3l-v7d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rC-Jv-87B">
@@ -207,7 +215,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="f1f-rw-75c" kind="show" id="7w0-Vd-Tqe"/>
+                                    <segue destination="SNf-mB-uyN" kind="show" id="IFn-zm-NG5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -246,7 +254,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="SNf-mB-uyN" kind="show" id="ggj-uB-2ub"/>
+                                    <segue destination="SNf-mB-uyN" kind="show" id="Nfg-X0-FsV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuA-40-idE">
@@ -255,7 +263,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="mR4-bB-1vV" kind="show" id="2RE-JG-Xjt"/>
+                                    <segue destination="mR4-bB-1vV" kind="show" id="5aG-ut-uwP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -284,22 +292,22 @@
                                 <rect key="frame" x="277" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWU-pZ-nht">
-                                <rect key="frame" x="29" y="376" width="75" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
-                                <connections>
-                                    <segue destination="5Zf-V2-iLA" kind="show" id="jzJ-mm-Vpa"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx6-JW-0Qm">
                                 <rect key="frame" x="290" y="376" width="75" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="mR4-bB-1vV" kind="show" id="mNp-MO-k60"/>
+                                    <segue destination="5Zf-V2-iLA" kind="show" id="JNB-rA-SjQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWU-pZ-nht">
+                                <rect key="frame" x="29" y="376" width="75" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="mR4-bB-1vV" kind="show" id="3rK-71-Q09"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -310,19 +318,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8t-hx-Q37" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2793" y="-704"/>
+            <point key="canvasLocation" x="2791.6030534351144" y="-704.22535211267609"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7w0-Vd-Tqe"/>
-        <segue reference="uaF-VQ-Cbd"/>
-        <segue reference="jzJ-mm-Vpa"/>
-        <segue reference="8zZ-5Y-L2T"/>
-        <segue reference="mNp-MO-k60"/>
+        <segue reference="IR2-3l-v7d"/>
+        <segue reference="X8d-dU-WXZ"/>
+        <segue reference="LMv-FO-otH"/>
+        <segue reference="IFn-zm-NG5"/>
+        <segue reference="5aG-ut-uwP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="daimei" width="524" height="496"/>
+        <image name="satoutakashi" width="640" height="1024"/>
         <image name="sayamariku" width="640" height="1024"/>
+        <image name="sonoyamatakeru" width="640" height="1024"/>
         <image name="start1" width="524" height="496"/>
         <image name="te" width="270" height="350"/>
         <image name="yamauchikouki" width="640" height="1024"/>
