@@ -31,14 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-    func application(_ application: ~~~Bool {
-
-        let navigationController = UINavigationController(rootViewController: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "initView"))
-        self.window?.rootViewVontroller = navigationController
-
-        return true
-    }
-
 
 }
 

@@ -14,11 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    @IBAction func nextButton(_ sender: Any) {
-
-        let nextView = self.storyboard!.instantiateViewController(withIdentifier: "nextView"
-        self.show(nextView, sender: nil)
-    }
 
 }
 
