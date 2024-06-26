@@ -26,7 +26,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="Inm-j8-rMg" kind="show" id="jQc-PT-jqH"/>
+                                    <segue destination="Inm-j8-rMg" kind="show" animates="NO" id="jQc-PT-jqH"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start1" translatesAutoresizingMaskIntoConstraints="NO" id="0NP-GX-mgG">
@@ -35,7 +35,8 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,7 +54,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GdN-zW-fhW">
                                 <rect key="frame" x="65" y="276" width="277" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">時は令和。
 今時の出会い方は
 マッチングアプリが
@@ -61,7 +62,7 @@
 
 恋愛戦国時代を駆け抜け、
 ハッピーエンドを目指そう！</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -71,12 +72,12 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="mR4-bB-1vV" kind="showDetail" id="yl3-0v-k7E"/>
+                                    <segue destination="mR4-bB-1vV" kind="showDetail" animates="NO" id="yl3-0v-k7E"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z7C-2i-7fr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="BNp-UX-kXa"/>
                 </viewController>
@@ -96,6 +97,17 @@
                                 <rect key="frame" x="15" y="46" width="362" height="786"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umh-z9-rot">
+                                <rect key="frame" x="109" y="636" width="174" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="rhp-t3-f65" kind="show" id="Vfa-hR-qJT"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0D-LO-pqg">
                                 <rect key="frame" x="26" y="376" width="78" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -122,6 +134,10 @@
                                 <rect key="frame" x="15" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="Ph0-j1-PrF">
+                                <rect key="frame" x="26" y="610" width="340" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cRV-4a-Z9v"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -131,6 +147,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wGp-Jn-h2b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1467.9389312977098" y="14.788732394366198"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eU7-wL-Kjb">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="rhp-t3-f65" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2FX-e5-LoD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="T0E-dm-e53"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Hv-Oa-IB6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yW-rm-71a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2459" y="574"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xcb-CU-bue">
@@ -144,6 +176,13 @@
                                 <rect key="frame" x="29" y="45" width="336" height="787"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4f-0N-UzR">
+                                <rect key="frame" x="110" y="630" width="174" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="oR9-dF-FHW">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -170,6 +209,10 @@
                                     <segue destination="BsX-sK-UOb" kind="show" id="X8d-dU-WXZ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="V4S-RN-B69">
+                                <rect key="frame" x="27" y="604" width="340" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kEI-d0-Uip"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -192,6 +235,14 @@
                                 <rect key="frame" x="29" y="45" width="336" height="787"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrf-sm-O9l">
+                                <rect key="frame" x="109" y="626" width="174" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-hP-nsb">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -218,6 +269,10 @@
                                     <segue destination="SNf-mB-uyN" kind="show" id="IFn-zm-NG5"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="A6X-bB-zez">
+                                <rect key="frame" x="27" y="600" width="340" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gsY-4B-YuB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -238,6 +293,17 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sayamariku" translatesAutoresizingMaskIntoConstraints="NO" id="0xg-Zm-Gjg">
                                 <rect key="frame" x="16" y="46" width="361" height="786"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6QJ-c1-HRn">
+                                <rect key="frame" x="109" y="648" width="174" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="cgg-bD-j1m">
+                                <rect key="frame" x="27" y="622" width="340" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="P6P-PP-emd">
@@ -288,6 +354,17 @@
                                 <rect key="frame" x="28" y="45" width="336" height="787"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQX-eQ-bpf">
+                                <rect key="frame" x="109" y="631" width="174" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="VLS-FG-sEM">
+                                <rect key="frame" x="26" y="605" width="340" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="S2Q-YX-PwS">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -326,14 +403,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IR2-3l-v7d"/>
-        <segue reference="X8d-dU-WXZ"/>
+        <segue reference="JbP-TB-0f2"/>
+        <segue reference="8Ss-Of-FdQ"/>
         <segue reference="LMv-FO-otH"/>
         <segue reference="IFn-zm-NG5"/>
         <segue reference="yl3-0v-k7E"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="daimei" width="524" height="496"/>
+        <image name="kettei" width="1024" height="768"/>
         <image name="satoutakashi" width="640" height="1024"/>
         <image name="sayamariku" width="640" height="1024"/>
         <image name="sonoyamatakeru" width="640" height="1024"/>
@@ -341,9 +419,6 @@
         <image name="te" width="270" height="350"/>
         <image name="tranakaissin" width="640" height="1024"/>
         <image name="yamauchikouki" width="640" height="1024"/>
-        <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
