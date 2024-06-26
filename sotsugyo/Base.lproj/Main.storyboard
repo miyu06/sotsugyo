@@ -105,7 +105,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="rhp-t3-f65" kind="show" id="Vfa-hR-qJT"/>
+                                    <segue destination="rhp-t3-f65" kind="show" animates="NO" id="Vfa-hR-qJT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0D-LO-pqg">
@@ -114,7 +114,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="BsX-sK-UOb" kind="show" id="8Ss-Of-FdQ"/>
+                                    <segue destination="BsX-sK-UOb" kind="show" animates="NO" id="8Ss-Of-FdQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-e9-AEp">
@@ -123,7 +123,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="f1f-rw-75c" kind="show" id="JbP-TB-0f2"/>
+                                    <segue destination="f1f-rw-75c" kind="show" animates="NO" id="JbP-TB-0f2"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="S6p-x0-s9W">
@@ -197,7 +197,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="5Zf-V2-iLA" kind="show" id="LMv-FO-otH"/>
+                                    <segue destination="5Zf-V2-iLA" kind="show" animates="NO" id="LMv-FO-otH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtT-vB-3tm">
@@ -206,7 +206,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="BsX-sK-UOb" kind="show" id="X8d-dU-WXZ"/>
+                                    <segue destination="BsX-sK-UOb" kind="show" animates="NO" id="X8d-dU-WXZ"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="V4S-RN-B69">
@@ -257,7 +257,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="f1f-rw-75c" kind="show" id="IR2-3l-v7d"/>
+                                    <segue destination="f1f-rw-75c" kind="show" animates="NO" id="IR2-3l-v7d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rC-Jv-87B">
@@ -266,7 +266,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="SNf-mB-uyN" kind="show" id="IFn-zm-NG5"/>
+                                    <segue destination="SNf-mB-uyN" kind="show" animates="NO" id="IFn-zm-NG5"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="A6X-bB-zez">
@@ -320,7 +320,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="SNf-mB-uyN" kind="show" id="Nfg-X0-FsV"/>
+                                    <segue destination="SNf-mB-uyN" kind="show" animates="NO" id="Nfg-X0-FsV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuA-40-idE">
@@ -329,7 +329,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="mR4-bB-1vV" kind="show" id="5aG-ut-uwP"/>
+                                    <segue destination="mR4-bB-1vV" kind="show" animates="NO" id="5aG-ut-uwP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -379,7 +379,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="mR4-bB-1vV" kind="show" id="3rK-71-Q09"/>
+                                    <segue destination="mR4-bB-1vV" kind="show" animates="NO" id="3rK-71-Q09"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx6-JW-0Qm">
@@ -388,7 +388,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="5Zf-V2-iLA" kind="show" id="JNB-rA-SjQ"/>
+                                    <segue destination="5Zf-V2-iLA" kind="show" animates="NO" id="JNB-rA-SjQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -403,10 +403,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JbP-TB-0f2"/>
-        <segue reference="8Ss-Of-FdQ"/>
+        <segue reference="IR2-3l-v7d"/>
+        <segue reference="X8d-dU-WXZ"/>
         <segue reference="LMv-FO-otH"/>
-        <segue reference="IFn-zm-NG5"/>
+        <segue reference="Nfg-X0-FsV"/>
         <segue reference="yl3-0v-k7E"/>
     </inferredMetricsTieBreakers>
     <resources>
