@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B30E9442C3FB175006D2F3F /* MojiHyoujiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30E9432C3FB175006D2F3F /* MojiHyoujiViewController.swift */; };
 		4B57D65C2BF5CADE00AE03A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57D65B2BF5CADE00AE03A0 /* AppDelegate.swift */; };
 		4B57D65E2BF5CADE00AE03A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57D65D2BF5CADE00AE03A0 /* SceneDelegate.swift */; };
 		4B57D6602BF5CADE00AE03A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57D65F2BF5CADE00AE03A0 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B30E9432C3FB175006D2F3F /* MojiHyoujiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiHyoujiViewController.swift; sourceTree = "<group>"; };
 		4B57D6582BF5CADE00AE03A0 /* sotsugyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sotsugyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B57D65B2BF5CADE00AE03A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B57D65D2BF5CADE00AE03A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				4B57D6662BF5CAE100AE03A0 /* LaunchScreen.storyboard */,
 				4B57D6692BF5CAE100AE03A0 /* Info.plist */,
 				4BF4F9812C2BE6150073A443 /* UserSelect.swift */,
+				4B30E9432C3FB175006D2F3F /* MojiHyoujiViewController.swift */,
 			);
 			path = sotsugyo;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B30E9442C3FB175006D2F3F /* MojiHyoujiViewController.swift in Sources */,
 				4B57D6602BF5CADE00AE03A0 /* ViewController.swift in Sources */,
 				4B57D65C2BF5CADE00AE03A0 /* AppDelegate.swift in Sources */,
 				4BF4F9822C2BE6150073A443 /* UserSelect.swift in Sources */,

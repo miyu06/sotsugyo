@@ -12,6 +12,21 @@ class UserSelect: UIViewController{
     override func viewDidLoad(){
         super.viewDidLoad()
     }
+    @IBAction func Confirm(){
+        let alert = UIAlertController(title: "タイトル", message: "メッセージ", preferredStyle: .alert)
+        let ok = UIAlertAction(title: "OK", style: .default) { (action) in
+            self.dismiss(animated: true, completion: nil)
+        }
+        //ここから追加
+        let cancel = UIAlertAction(title: "キャンセル", style: .cancel) { (acrion) in
+            self.dismiss(animated: true, completion: nil)
+        }
+        alert.addAction(cancel)
+        //ここまで追加
+        alert.addAction(ok)
+        present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func next(_ sender: UIButton){
         let nowPage = self.restorationIdentifier
         let nextPage:Int
