@@ -145,25 +145,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="0yu-fW-2RL"/>
+                    <connections>
+                        <segue destination="tit-U9-UjJ" kind="show" identifier="matchingYamauchiKouki" id="Q1o-0a-jdO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wGp-Jn-h2b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1467.9389312977098" y="14.788732394366198"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="18T-PK-PAn">
-            <objects>
-                <viewController id="67i-Wo-895" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="S8x-On-B9b">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ZUh-pg-EtL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UgQ-Rf-NQ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2291" y="14"/>
         </scene>
         <!--User Select-->
         <scene sceneID="xcb-CU-bue">
@@ -183,6 +171,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="gSE-g2-yAn" kind="show" id="SmG-3a-leR"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="oR9-dF-FHW">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
@@ -245,6 +236,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="eGV-6Q-VJf" kind="show" id="CL6-Z7-Egk"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-hP-nsb">
                                 <rect key="frame" x="16" y="376" width="100" height="100"/>
@@ -306,6 +300,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ZY6-HO-IVn" kind="show" id="4J8-ri-DQe"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="cgg-bD-j1m">
                                 <rect key="frame" x="27" y="622" width="340" height="139"/>
@@ -367,6 +364,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="pNx-jC-ZX6" kind="show" id="h3G-Gz-Xny"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="VLS-FG-sEM">
                                 <rect key="frame" x="26" y="605" width="340" height="139"/>
@@ -573,25 +573,21 @@
             </objects>
             <point key="canvasLocation" x="3211" y="963"/>
         </scene>
-        <!--View Controller-->
+        <!--Matching Yamauchi Kouki One View Controller-->
         <scene sceneID="1UX-cN-5HP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="tit-U9-UjJ" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="tit-U9-UjJ" customClass="MatchingYamauchiKoukiOneViewController" customModule="sotsugyo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qeb-Di-yah">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="matching.YamautiKouki" translatesAutoresizingMaskIntoConstraints="NO" id="f9J-Yw-5is">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg1-0Q-dHp">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="FCQ-70-tCz" kind="show" id="V9W-Eb-cn8"/>
+                                    <segue destination="5vL-0W-LMx" kind="show" identifier="toDateYK" id="oxT-eg-csv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -602,7 +598,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ozU-q0-qdp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3211" y="15"/>
+            <point key="canvasLocation" x="2209" y="15"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zUB-oT-Tr5">
@@ -697,6 +693,31 @@
             </objects>
             <point key="canvasLocation" x="3211" y="1833"/>
         </scene>
+        <!--Date View Controller-->
+        <scene sceneID="Cgg-kO-ixK">
+            <objects>
+                <viewController storyboardIdentifier="DateVCYK" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5vL-0W-LMx" customClass="DateViewController" customModule="sotsugyo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3a5-0B-qhf">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遷移成功" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XbG-VS-sjX">
+                                <rect key="frame" x="174" y="359" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5aO-2X-fSf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qrb-r3-VCM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMt-si-Jx1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3622" y="49"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="6nu-Bc-Mc0">
             <objects>
@@ -728,15 +749,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cGo-GJ-LMi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4037" y="15"/>
+            <point key="canvasLocation" x="5297" y="14"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="JbP-TB-0f2"/>
         <segue reference="8Ss-Of-FdQ"/>
-        <segue reference="JNB-rA-SjQ"/>
-        <segue reference="IFn-zm-NG5"/>
-        <segue reference="3rK-71-Q09"/>
+        <segue reference="LMv-FO-otH"/>
+        <segue reference="Nfg-X0-FsV"/>
+        <segue reference="yl3-0v-k7E"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="daimei" width="524" height="496"/>
@@ -747,7 +768,6 @@
         <image name="matching.SayamaRiku" width="1172" height="2532"/>
         <image name="matching.SonoyamaTakeru" width="1172" height="2532"/>
         <image name="matching.TanakaIssin" width="1172" height="2532"/>
-        <image name="matching.YamautiKouki" width="1172" height="2532"/>
         <image name="satoutakashi" width="640" height="1024"/>
         <image name="sayamariku" width="640" height="1024"/>
         <image name="sonoyamatakeru" width="640" height="1024"/>

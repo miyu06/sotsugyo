@@ -15,7 +15,7 @@ class UserSelect: UIViewController{
     @IBAction func Confirm(){
         let alert = UIAlertController(title: "タイトル", message: "メッセージ", preferredStyle: .alert)
         let ok = UIAlertAction(title: "OK", style: .default) { (action) in
-            self.dismiss(animated: true, completion: nil)
+            self.performSegue(withIdentifier: "matchingYamauchiKouki", sender: nil)
         }
         //ここから追加
         let cancel = UIAlertAction(title: "キャンセル", style: .cancel) { (acrion) in
