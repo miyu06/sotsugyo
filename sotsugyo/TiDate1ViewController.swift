@@ -8,7 +8,7 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class DateTanakaIssinViewController: UIViewController {
+class TiDate1ViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
@@ -24,7 +24,7 @@ class DateTanakaIssinViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "FirstDate", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "TiDate1", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
@@ -55,9 +55,9 @@ class DateTanakaIssinViewController: UIViewController {
     @objc func goToNextScreen() {
         self.player.pause() // プレイヤーを一時停止
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
-        print("次の画面")
+        print("次の画面2")
         // 次の画面に遷移
-        let nextViewController = TiDate1ViewController()
+        let nextViewController = TiDate2ViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }

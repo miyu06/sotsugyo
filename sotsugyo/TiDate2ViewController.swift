@@ -8,7 +8,7 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class DateTanakaIssinViewController: UIViewController {
+class TiDate2ViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
@@ -24,7 +24,7 @@ class DateTanakaIssinViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "FirstDate", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "TiDate2", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
