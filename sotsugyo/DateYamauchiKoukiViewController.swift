@@ -1,17 +1,22 @@
+//
+//  dateViewController.swift
+//  sotsugyo
+//
+//  Created by clark on 2024/10/04.
+//
 import UIKit
 import AVFoundation
 import AVKit
 
-class MatchingYamauchiKoukiOneViewController: UIViewController {
+class DateYamauchiKoukiViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("a")
     }
-    //ここまでかけた
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         playvideo()
@@ -19,10 +24,11 @@ class MatchingYamauchiKoukiOneViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "MatchingYamauchiKouki", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "FirstDate", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
+        
         let videoURL = URL(fileURLWithPath: filePath)
         self.player = AVPlayer(url: videoURL) // ここで self.player に代入
         

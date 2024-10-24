@@ -2,7 +2,7 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class MatchingYamauchiKoukiOneViewController: UIViewController {
+class MatchingTanakaIssinViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
@@ -19,7 +19,7 @@ class MatchingYamauchiKoukiOneViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "MatchingYamauchiKouki", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "MatchingTanakaIssin", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
@@ -37,7 +37,6 @@ class MatchingYamauchiKoukiOneViewController: UIViewController {
         videoView.layer.addSublayer(self.playerLayer)
         
         self.player.play() // プレイヤーを再生
-        print("iikanji")
         
         // ボタンを作成して動画ビューの上に追加
         let nextButton = UIButton(type: .system)
@@ -53,8 +52,9 @@ class MatchingYamauchiKoukiOneViewController: UIViewController {
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
         print("次の画面")
         // 次の画面に遷移
-        let nextViewController = DateYamauchiKoukiViewController()
+        let nextViewController = DateTanakaIssinViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }
 }
+

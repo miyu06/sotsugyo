@@ -365,7 +365,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="pNx-jC-ZX6" kind="show" id="h3G-Gz-Xny"/>
+                                    <segue destination="pNx-jC-ZX6" kind="show" identifier="matchingTanakaIssin" id="upn-40-zL8"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kettei" translatesAutoresizingMaskIntoConstraints="NO" id="VLS-FG-sEM">
@@ -441,12 +441,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eXg-gr-OW5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4038" y="1833"/>
+            <point key="canvasLocation" x="2982" y="1833"/>
         </scene>
-        <!--View Controller-->
+        <!--Date Tanaka Issin View Controller-->
         <scene sceneID="wdG-vD-qsV">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="jyU-ME-SKR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jyU-ME-SKR" customClass="DateTanakaIssinViewController" customModule="sotsugyo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gt7-vU-IEf">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -474,7 +474,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SgX-em-Jgj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4037" y="963"/>
+            <point key="canvasLocation" x="2982" y="963"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aD5-Sa-RbG">
@@ -507,7 +507,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbK-Rg-cqQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4037" y="2748"/>
+            <point key="canvasLocation" x="2982" y="2748"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yHr-la-Fpg">
@@ -540,12 +540,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0a0-xB-n64" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4037" y="3675"/>
+            <point key="canvasLocation" x="2982" y="3675"/>
         </scene>
-        <!--View Controller-->
+        <!--Matching Tanaka Issin View Controller-->
         <scene sceneID="nEf-uL-mhP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="pNx-jC-ZX6" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="pNx-jC-ZX6" customClass="MatchingTanakaIssinViewController" customModule="sotsugyo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eJf-Xy-gv3">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -571,7 +571,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l56-nx-sQP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3211" y="963"/>
+            <point key="canvasLocation" x="2208" y="963"/>
         </scene>
         <!--Matching Yamauchi Kouki One View Controller-->
         <scene sceneID="1UX-cN-5HP">
@@ -629,7 +629,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5EX-0C-Rcp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3211" y="3675"/>
+            <point key="canvasLocation" x="2208" y="3675"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DOp-ko-s9k">
@@ -660,7 +660,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ULV-xc-B2L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3211" y="2748"/>
+            <point key="canvasLocation" x="2208" y="2748"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="REa-en-IcA">
@@ -691,12 +691,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZC-K4-Fnv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3211" y="1833"/>
+            <point key="canvasLocation" x="2208" y="1833"/>
         </scene>
-        <!--Date View Controller-->
+        <!--Date Yamauchi Kouki View Controller-->
         <scene sceneID="Cgg-kO-ixK">
             <objects>
-                <viewController storyboardIdentifier="DateVCYK" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5vL-0W-LMx" customClass="DateViewController" customModule="sotsugyo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DateVCYK" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5vL-0W-LMx" customClass="DateYamauchiKoukiViewController" customModule="sotsugyo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3a5-0B-qhf">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -716,7 +716,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMt-si-Jx1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3622" y="49"/>
+            <point key="canvasLocation" x="2983" y="15"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6nu-Bc-Mc0">
@@ -753,11 +753,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JbP-TB-0f2"/>
+        <segue reference="IR2-3l-v7d"/>
         <segue reference="8Ss-Of-FdQ"/>
-        <segue reference="LMv-FO-otH"/>
-        <segue reference="Nfg-X0-FsV"/>
-        <segue reference="yl3-0v-k7E"/>
+        <segue reference="JNB-rA-SjQ"/>
+        <segue reference="IFn-zm-NG5"/>
+        <segue reference="3rK-71-Q09"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="daimei" width="524" height="496"/>
