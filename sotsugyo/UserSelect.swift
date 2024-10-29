@@ -9,18 +9,17 @@ import Foundation
 import UIKit
 
 class UserSelect: UIViewController{
+    let nextpage = ["matchingYamauchiKouki","matchingTanakaIssin","matchingSatouTakashi", "matchingSonoyamaTakeru", "matchingSayamaRiku"]
     override func viewDidLoad(){
         super.viewDidLoad()
     }
-    @IBAction func Confirm(){
+    @IBAction func Confirm(_ sender: UIButton){
         let alert = UIAlertController(title: "タイトル", message: "メッセージ", preferredStyle: .alert)
         let ok = UIAlertAction(title: "OK", style: .default) { (action) in
-            self.performSegue(withIdentifier: "matchingYamauchiKouki", sender: nil)
+            self.performSegue(withIdentifier: self.nextpage[Int(sender.tag) - 1], sender: nil)
         }
         //ここから追加
-        let cancel = UIAlertAction(title: "キャンセル", style: .cancel) { (acrion) in
-            self.dismiss(animated: true, completion: nil)
-        }
+        let cancel = UIAlertAction(title: "キャンセル", style: .cancel)
         alert.addAction(cancel)
         //ここまで追加
         alert.addAction(ok)

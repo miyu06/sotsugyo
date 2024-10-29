@@ -8,7 +8,7 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class TiDate1ViewController: UIViewController {
+class TiBar5ViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
@@ -24,8 +24,8 @@ class TiDate1ViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "TiDate1", ofType: "mp4") else {
-            print("動画が見つからないわ")
+        guard let filePath = Bundle.main.path(forResource: "TiBar5", ofType: "mp4") else {
+            print("動画が見つからない")
             return
         }
         let videoURL = URL(fileURLWithPath: filePath)
@@ -55,9 +55,9 @@ class TiDate1ViewController: UIViewController {
     @objc func goToNextScreen() {
         self.player.pause() // プレイヤーを一時停止
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
-        print("次の画面2")
+        print("次の画面")
         // 次の画面に遷移
-        let nextViewController = TiDate2ViewController()
+        let nextViewController = TiBar6ViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }

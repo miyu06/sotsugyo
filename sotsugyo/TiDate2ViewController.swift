@@ -57,7 +57,7 @@ class TiDate2ViewController: UIViewController {
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
         print("次の画面")
         // 次の画面に遷移
-        let nextViewController = TiDate1ViewController()
+        let nextViewController = TiBar1ViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }

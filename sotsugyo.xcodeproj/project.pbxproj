@@ -12,6 +12,15 @@
 		4B5228DA2CC62C6E00427F75 /* FirstDate.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5228D92CC62B8800427F75 /* FirstDate.mp4 */; };
 		4B5228DD2CCA0FDC00427F75 /* TiDate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5228DC2CCA0FDC00427F75 /* TiDate1ViewController.swift */; };
 		4B5228E02CCA14E600427F75 /* TiDate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5228DF2CCA14E600427F75 /* TiDate2ViewController.swift */; };
+		4B5228E42CCA1A3200427F75 /* TiDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5228E32CCA1A3200427F75 /* TiDate1.mp4 */; };
+		4B5228E62CCA1A7000427F75 /* TiDate2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5228E52CCA1A7000427F75 /* TiDate2.mp4 */; };
+		4B5228E82CCA1A7900427F75 /* TiBar1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5228E72CCA1A7900427F75 /* TiBar1.mp4 */; };
+		4B5228EA2CCA1A8200427F75 /* TiBar2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5228E92CCA1A8200427F75 /* TiBar2.mp4 */; };
+		4B5228EC2CCA1BDE00427F75 /* TiBar1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5228EB2CCA1BDE00427F75 /* TiBar1ViewController.swift */; };
+		4B5228EE2CCA1BF600427F75 /* TiBar2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5228ED2CCA1BF600427F75 /* TiBar2ViewController.swift */; };
+		4B5228F02CCA1D6A00427F75 /* TiBar3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5228EF2CCA1D6A00427F75 /* TiBar3.mp4 */; };
+		4B5228F22CCA1E9C00427F75 /* TiBar3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5228F12CCA1E9C00427F75 /* TiBar3ViewController.swift */; };
+		4B5228F62CCA1FFF00427F75 /* TiBar4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5228F52CCA1FFF00427F75 /* TiBar4ViewController.swift */; };
 		4B559BE82CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B559BE32CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 */; };
 		4B559BE92CA52970004C3004 /* MatchingTanakaIssin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B559BE42CA52970004C3004 /* MatchingTanakaIssin.mp4 */; };
 		4B559BEA2CA52970004C3004 /* MatchingYamauchiKouki.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B559BE52CA52970004C3004 /* MatchingYamauchiKouki.mp4 */; };
@@ -26,6 +35,20 @@
 		4B7596F72CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7596F62CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift */; };
 		4BF0FB8B2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */; };
 		4BF0FB8D2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */; };
+		4BF1735C2CCB6B53008873CB /* TiBar4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */; };
+		4BF1735E2CCB6B5D008873CB /* TiBar5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1735D2CCB6B5D008873CB /* TiBar5.mp4 */; };
+		4BF173602CCB6B68008873CB /* TiBar6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1735F2CCB6B68008873CB /* TiBar6.mp4 */; };
+		4BF173622CCB6BC1008873CB /* TiBar5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173612CCB6BC1008873CB /* TiBar5ViewController.swift */; };
+		4BF173642CCB6BED008873CB /* TiBar6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173632CCB6BED008873CB /* TiBar6ViewController.swift */; };
+		4BF173662CCB6D4A008873CB /* SrDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF173652CCB6D49008873CB /* SrDate1.mp4 */; };
+		4BF173682CCB6D56008873CB /* SrDate2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF173672CCB6D56008873CB /* SrDate2.mp4 */; };
+		4BF1736A2CCB6D81008873CB /* SrDate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173692CCB6D81008873CB /* SrDate1ViewController.swift */; };
+		4BF1736C2CCB6DAE008873CB /* SrDate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1736B2CCB6DAE008873CB /* SrDate2ViewController.swift */; };
+		4BF1736E2CCB71CF008873CB /* YkDate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1736D2CCB71CF008873CB /* YkDate1ViewController.swift */; };
+		4BF173702CCB7209008873CB /* YkDate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1736F2CCB7209008873CB /* YkDate2ViewController.swift */; };
+		4BF173722CCB741B008873CB /* YkDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF173712CCB741B008873CB /* YkDate1.mp4 */; };
+		4BF173742CCB7423008873CB /* YkDate2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF173732CCB7423008873CB /* YkDate2.mp4 */; };
+		4BF173762CD0A174008873CB /* SrDate3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173752CD0A174008873CB /* SrDate3ViewController.swift */; };
 		4BF4F9822C2BE6150073A443 /* UserSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF4F9812C2BE6150073A443 /* UserSelect.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +56,17 @@
 		4B30E9432C3FB175006D2F3F /* MojiHyoujiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiHyoujiViewController.swift; sourceTree = "<group>"; };
 		4B5228D52CC6230500427F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B5228D92CC62B8800427F75 /* FirstDate.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FirstDate.mp4; sourceTree = "<group>"; };
-		4B5228DB2CCA0F9500427F75 /* TiDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiDate1.mp4; sourceTree = "<group>"; };
 		4B5228DC2CCA0FDC00427F75 /* TiDate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiDate1ViewController.swift; sourceTree = "<group>"; };
-		4B5228DE2CCA149900427F75 /* TiDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiDate2.mp4; sourceTree = "<group>"; };
 		4B5228DF2CCA14E600427F75 /* TiDate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiDate2ViewController.swift; sourceTree = "<group>"; };
+		4B5228E32CCA1A3200427F75 /* TiDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TiDate1.mp4; path = ../../../Downloads/TiDate1.mp4; sourceTree = "<group>"; };
+		4B5228E52CCA1A7000427F75 /* TiDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiDate2.mp4; sourceTree = "<group>"; };
+		4B5228E72CCA1A7900427F75 /* TiBar1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar1.mp4; sourceTree = "<group>"; };
+		4B5228E92CCA1A8200427F75 /* TiBar2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar2.mp4; sourceTree = "<group>"; };
+		4B5228EB2CCA1BDE00427F75 /* TiBar1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar1ViewController.swift; sourceTree = "<group>"; };
+		4B5228ED2CCA1BF600427F75 /* TiBar2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar2ViewController.swift; sourceTree = "<group>"; };
+		4B5228EF2CCA1D6A00427F75 /* TiBar3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar3.mp4; sourceTree = "<group>"; };
+		4B5228F12CCA1E9C00427F75 /* TiBar3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar3ViewController.swift; sourceTree = "<group>"; };
+		4B5228F52CCA1FFF00427F75 /* TiBar4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar4ViewController.swift; sourceTree = "<group>"; };
 		4B559BE32CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MatchingSonoyamaTakeru.mp4; sourceTree = "<group>"; };
 		4B559BE42CA52970004C3004 /* MatchingTanakaIssin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MatchingTanakaIssin.mp4; sourceTree = "<group>"; };
 		4B559BE52CA52970004C3004 /* MatchingYamauchiKouki.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MatchingYamauchiKouki.mp4; sourceTree = "<group>"; };
@@ -53,6 +83,20 @@
 		4B7596F62CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingYamauchiKouikiOneViewController.swift; sourceTree = "<group>"; };
 		4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingTanakaIssinViewController.swift; sourceTree = "<group>"; };
 		4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTanakaIssinViewController.swift; sourceTree = "<group>"; };
+		4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar4.mp4; sourceTree = "<group>"; };
+		4BF1735D2CCB6B5D008873CB /* TiBar5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar5.mp4; sourceTree = "<group>"; };
+		4BF1735F2CCB6B68008873CB /* TiBar6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar6.mp4; sourceTree = "<group>"; };
+		4BF173612CCB6BC1008873CB /* TiBar5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar5ViewController.swift; sourceTree = "<group>"; };
+		4BF173632CCB6BED008873CB /* TiBar6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar6ViewController.swift; sourceTree = "<group>"; };
+		4BF173652CCB6D49008873CB /* SrDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SrDate1.mp4; sourceTree = "<group>"; };
+		4BF173672CCB6D56008873CB /* SrDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SrDate2.mp4; sourceTree = "<group>"; };
+		4BF173692CCB6D81008873CB /* SrDate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrDate1ViewController.swift; sourceTree = "<group>"; };
+		4BF1736B2CCB6DAE008873CB /* SrDate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrDate2ViewController.swift; sourceTree = "<group>"; };
+		4BF1736D2CCB71CF008873CB /* YkDate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YkDate1ViewController.swift; sourceTree = "<group>"; };
+		4BF1736F2CCB7209008873CB /* YkDate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YkDate2ViewController.swift; sourceTree = "<group>"; };
+		4BF173712CCB741B008873CB /* YkDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YkDate1.mp4; sourceTree = "<group>"; };
+		4BF173732CCB7423008873CB /* YkDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YkDate2.mp4; sourceTree = "<group>"; };
+		4BF173752CD0A174008873CB /* SrDate3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrDate3ViewController.swift; sourceTree = "<group>"; };
 		4BF4F9812C2BE6150073A443 /* UserSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,17 +142,38 @@
 				4B559BED2CAFB269004C3004 /* DateYamauchiKoukiViewController.swift */,
 				4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */,
 				4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */,
+				4BF1736D2CCB71CF008873CB /* YkDate1ViewController.swift */,
+				4BF1736F2CCB7209008873CB /* YkDate2ViewController.swift */,
 				4B5228DC2CCA0FDC00427F75 /* TiDate1ViewController.swift */,
 				4B5228DF2CCA14E600427F75 /* TiDate2ViewController.swift */,
+				4B5228EB2CCA1BDE00427F75 /* TiBar1ViewController.swift */,
+				4B5228ED2CCA1BF600427F75 /* TiBar2ViewController.swift */,
+				4B5228F12CCA1E9C00427F75 /* TiBar3ViewController.swift */,
+				4B5228F52CCA1FFF00427F75 /* TiBar4ViewController.swift */,
+				4BF173612CCB6BC1008873CB /* TiBar5ViewController.swift */,
+				4BF173632CCB6BED008873CB /* TiBar6ViewController.swift */,
+				4BF173692CCB6D81008873CB /* SrDate1ViewController.swift */,
+				4BF1736B2CCB6DAE008873CB /* SrDate2ViewController.swift */,
+				4BF173752CD0A174008873CB /* SrDate3ViewController.swift */,
 				4B559BE72CA52970004C3004 /* MatchingSatouTakashi.mp4 */,
 				4B559BE62CA52970004C3004 /* MatchingSayamaRiku.mp4 */,
 				4B559BE32CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 */,
 				4B559BE42CA52970004C3004 /* MatchingTanakaIssin.mp4 */,
 				4B559BE52CA52970004C3004 /* MatchingYamauchiKouki.mp4 */,
 				4B5228D92CC62B8800427F75 /* FirstDate.mp4 */,
-				4B5228DB2CCA0F9500427F75 /* TiDate1.mp4 */,
-				4B5228DE2CCA149900427F75 /* TiDate2.mp4 */,
 				4B5228D52CC6230500427F75 /* Assets.xcassets */,
+				4BF173712CCB741B008873CB /* YkDate1.mp4 */,
+				4BF173732CCB7423008873CB /* YkDate2.mp4 */,
+				4B5228E32CCA1A3200427F75 /* TiDate1.mp4 */,
+				4B5228E52CCA1A7000427F75 /* TiDate2.mp4 */,
+				4B5228E72CCA1A7900427F75 /* TiBar1.mp4 */,
+				4B5228E92CCA1A8200427F75 /* TiBar2.mp4 */,
+				4B5228EF2CCA1D6A00427F75 /* TiBar3.mp4 */,
+				4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */,
+				4BF1735D2CCB6B5D008873CB /* TiBar5.mp4 */,
+				4BF1735F2CCB6B68008873CB /* TiBar6.mp4 */,
+				4BF173652CCB6D49008873CB /* SrDate1.mp4 */,
+				4BF173672CCB6D56008873CB /* SrDate2.mp4 */,
 			);
 			path = sotsugyo;
 			sourceTree = "<group>";
@@ -171,15 +236,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF1735E2CCB6B5D008873CB /* TiBar5.mp4 in Resources */,
 				4B57D6682BF5CAE100AE03A0 /* LaunchScreen.storyboard in Resources */,
+				4BF173602CCB6B68008873CB /* TiBar6.mp4 in Resources */,
 				4B5228DA2CC62C6E00427F75 /* FirstDate.mp4 in Resources */,
 				4B559BEA2CA52970004C3004 /* MatchingYamauchiKouki.mp4 in Resources */,
+				4B5228EA2CCA1A8200427F75 /* TiBar2.mp4 in Resources */,
+				4BF1735C2CCB6B53008873CB /* TiBar4.mp4 in Resources */,
 				4B559BEC2CA52970004C3004 /* MatchingSatouTakashi.mp4 in Resources */,
+				4B5228E82CCA1A7900427F75 /* TiBar1.mp4 in Resources */,
+				4BF173722CCB741B008873CB /* YkDate1.mp4 in Resources */,
+				4B5228E42CCA1A3200427F75 /* TiDate1.mp4 in Resources */,
+				4B5228E62CCA1A7000427F75 /* TiDate2.mp4 in Resources */,
 				4B57D6632BF5CADE00AE03A0 /* Main.storyboard in Resources */,
 				4B559BE92CA52970004C3004 /* MatchingTanakaIssin.mp4 in Resources */,
+				4BF173682CCB6D56008873CB /* SrDate2.mp4 in Resources */,
+				4B5228F02CCA1D6A00427F75 /* TiBar3.mp4 in Resources */,
+				4BF173662CCB6D4A008873CB /* SrDate1.mp4 in Resources */,
 				4B559BE82CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 in Resources */,
 				4B5228D62CC6230500427F75 /* Assets.xcassets in Resources */,
 				4B559BEB2CA52970004C3004 /* MatchingSayamaRiku.mp4 in Resources */,
+				4BF173742CCB7423008873CB /* YkDate2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,15 +268,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5228E02CCA14E600427F75 /* TiDate2ViewController.swift in Sources */,
+				4BF173762CD0A174008873CB /* SrDate3ViewController.swift in Sources */,
+				4BF173702CCB7209008873CB /* YkDate2ViewController.swift in Sources */,
+				4BF1736C2CCB6DAE008873CB /* SrDate2ViewController.swift in Sources */,
+				4BF173642CCB6BED008873CB /* TiBar6ViewController.swift in Sources */,
+				4B5228F62CCA1FFF00427F75 /* TiBar4ViewController.swift in Sources */,
 				4B30E9442C3FB175006D2F3F /* MojiHyoujiViewController.swift in Sources */,
 				4B5228DD2CCA0FDC00427F75 /* TiDate1ViewController.swift in Sources */,
 				4B57D6602BF5CADE00AE03A0 /* ViewController.swift in Sources */,
 				4BF0FB8B2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift in Sources */,
 				4B57D65C2BF5CADE00AE03A0 /* AppDelegate.swift in Sources */,
 				4B559BEE2CAFB269004C3004 /* DateYamauchiKoukiViewController.swift in Sources */,
+				4B5228EC2CCA1BDE00427F75 /* TiBar1ViewController.swift in Sources */,
 				4B7596F72CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift in Sources */,
+				4BF1736E2CCB71CF008873CB /* YkDate1ViewController.swift in Sources */,
 				4BF0FB8D2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift in Sources */,
+				4BF173622CCB6BC1008873CB /* TiBar5ViewController.swift in Sources */,
 				4BF4F9822C2BE6150073A443 /* UserSelect.swift in Sources */,
+				4B5228F22CCA1E9C00427F75 /* TiBar3ViewController.swift in Sources */,
+				4BF1736A2CCB6D81008873CB /* SrDate1ViewController.swift in Sources */,
+				4B5228EE2CCA1BF600427F75 /* TiBar2ViewController.swift in Sources */,
 				4B57D65E2BF5CADE00AE03A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
