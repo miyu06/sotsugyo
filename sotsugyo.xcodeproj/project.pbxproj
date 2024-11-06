@@ -32,6 +32,18 @@
 		4B57D6632BF5CADE00AE03A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B57D6612BF5CADE00AE03A0 /* Main.storyboard */; };
 		4B57D6682BF5CAE100AE03A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B57D6662BF5CAE100AE03A0 /* LaunchScreen.storyboard */; };
 		4B7596F72CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7596F62CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift */; };
+		4BB655332CD348AD00A821F8 /* SrDate0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB655322CD348AD00A821F8 /* SrDate0ViewController.swift */; };
+		4BB655352CD34EE200A821F8 /* JjiDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BB655342CD34EE200A821F8 /* JjiDate1.mp4 */; };
+		4BB655372CD3512100A821F8 /* JjiDate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB655362CD3512100A821F8 /* JjiDate1ViewController.swift */; };
+		4BB655392CD3523E00A821F8 /* JjiDate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB655382CD3523E00A821F8 /* JjiDate2ViewController.swift */; };
+		4BB6553A2CD3548200A821F8 /* TiDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF173822CD0A8A6008873CB /* TiDate1.mp4 */; };
+		4BB6553C2CD3578C00A821F8 /* JjiDate2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6553B2CD3578C00A821F8 /* JjiDate2.mp4 */; };
+		4BB6553E2CD3592D00A821F8 /* StDate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6553D2CD3592D00A821F8 /* StDate1ViewController.swift */; };
+		4BB655402CD35D4800A821F8 /* JjiDate3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BB6553F2CD35D4800A821F8 /* JjiDate3.mp4 */; };
+		4BB655422CD35DBC00A821F8 /* JjiDate3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB655412CD35DBC00A821F8 /* JjiDate3ViewController.swift */; };
+		4BC6550A2CDB3D3D006E581E /* StDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655092CDB3D3D006E581E /* StDate1.mp4 */; };
+		4BC6550C2CDB3D4C006E581E /* StDate2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6550B2CDB3D4C006E581E /* StDate2.mp4 */; };
+		4BC6550E2CDB3E92006E581E /* StDate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6550D2CDB3E92006E581E /* StDate2ViewController.swift */; };
 		4BF0FB8B2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */; };
 		4BF0FB8D2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */; };
 		4BF1735C2CCB6B53008873CB /* TiBar4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */; };
@@ -50,6 +62,7 @@
 		4BF173762CD0A174008873CB /* SrDate3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173752CD0A174008873CB /* SrDate3ViewController.swift */; };
 		4BF173782CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173772CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift */; };
 		4BF1737D2CD0A6FA008873CB /* MatchingSayamaRikuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1737C2CD0A6FA008873CB /* MatchingSayamaRikuViewController.swift */; };
+		4BF173892CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF173882CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift */; };
 		4BF4F9822C2BE6150073A443 /* UserSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF4F9812C2BE6150073A443 /* UserSelect.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +94,17 @@
 		4B57D6672BF5CAE100AE03A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B57D6692BF5CAE100AE03A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7596F62CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingYamauchiKouikiOneViewController.swift; sourceTree = "<group>"; };
+		4BB655322CD348AD00A821F8 /* SrDate0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrDate0ViewController.swift; sourceTree = "<group>"; };
+		4BB655342CD34EE200A821F8 /* JjiDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = JjiDate1.mp4; sourceTree = "<group>"; };
+		4BB655362CD3512100A821F8 /* JjiDate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JjiDate1ViewController.swift; sourceTree = "<group>"; };
+		4BB655382CD3523E00A821F8 /* JjiDate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JjiDate2ViewController.swift; sourceTree = "<group>"; };
+		4BB6553B2CD3578C00A821F8 /* JjiDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = JjiDate2.mp4; sourceTree = "<group>"; };
+		4BB6553D2CD3592D00A821F8 /* StDate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StDate1ViewController.swift; sourceTree = "<group>"; };
+		4BB6553F2CD35D4800A821F8 /* JjiDate3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = JjiDate3.mp4; sourceTree = "<group>"; };
+		4BB655412CD35DBC00A821F8 /* JjiDate3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JjiDate3ViewController.swift; sourceTree = "<group>"; };
+		4BC655092CDB3D3D006E581E /* StDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = StDate1.mp4; sourceTree = "<group>"; };
+		4BC6550B2CDB3D4C006E581E /* StDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = StDate2.mp4; sourceTree = "<group>"; };
+		4BC6550D2CDB3E92006E581E /* StDate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StDate2ViewController.swift; sourceTree = "<group>"; };
 		4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingTanakaIssinViewController.swift; sourceTree = "<group>"; };
 		4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTanakaIssinViewController.swift; sourceTree = "<group>"; };
 		4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar4.mp4; sourceTree = "<group>"; };
@@ -100,6 +124,7 @@
 		4BF173772CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingSatouTakashiViewControllerViewController.swift; sourceTree = "<group>"; };
 		4BF1737C2CD0A6FA008873CB /* MatchingSayamaRikuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingSayamaRikuViewController.swift; sourceTree = "<group>"; };
 		4BF173822CD0A8A6008873CB /* TiDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiDate1.mp4; sourceTree = "<group>"; };
+		4BF173882CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingSonoyamaTakeruViewController.swift; sourceTree = "<group>"; };
 		4BF4F9812C2BE6150073A443 /* UserSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,15 +168,17 @@
 				4B30E9432C3FB175006D2F3F /* MojiHyoujiViewController.swift */,
 				4BF173792CD0A633008873CB /* YamauchiKoukiCode */,
 				4BF1737A2CD0A65A008873CB /* TanakaIssinCode */,
+				4BF173862CD0AB0C008873CB /* SatouTakashiCode */,
+				4BF173872CD0AB40008873CB /* SonoyamaTakeru */,
 				4BF1737B2CD0A680008873CB /* SayamaRikuCode */,
-				4BF173772CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift */,
 				4B5228D52CC6230500427F75 /* Assets.xcassets */,
 				4BF1737F2CD0A807008873CB /* MatchingAssets */,
 				4B5228D92CC62B8800427F75 /* FirstDate.mp4 */,
 				4BF173802CD0A855008873CB /* YamauchiKoukiAssets */,
 				4BF173812CD0A88F008873CB /* TanakaIssinAssets */,
-				4BF173652CCB6D49008873CB /* SrDate1.mp4 */,
-				4BF173672CCB6D56008873CB /* SrDate2.mp4 */,
+				4BF1738B2CD0B2C3008873CB /* SatouTakashiAssets */,
+				4BF1738A2CD0B2A4008873CB /* SonoyamaTakeruAssets */,
+				4BF173852CD0AAC4008873CB /* SayamaRikuAssets */,
 			);
 			path = sotsugyo;
 			sourceTree = "<group>";
@@ -188,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				4BF1737C2CD0A6FA008873CB /* MatchingSayamaRikuViewController.swift */,
+				4BB655322CD348AD00A821F8 /* SrDate0ViewController.swift */,
 				4BF173692CCB6D81008873CB /* SrDate1ViewController.swift */,
 				4BF1736B2CCB6DAE008873CB /* SrDate2ViewController.swift */,
 				4BF173752CD0A174008873CB /* SrDate3ViewController.swift */,
@@ -229,6 +257,55 @@
 				4BF1735F2CCB6B68008873CB /* TiBar6.mp4 */,
 			);
 			path = TanakaIssinAssets;
+			sourceTree = "<group>";
+		};
+		4BF173852CD0AAC4008873CB /* SayamaRikuAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4BF173652CCB6D49008873CB /* SrDate1.mp4 */,
+				4BF173672CCB6D56008873CB /* SrDate2.mp4 */,
+			);
+			path = SayamaRikuAssets;
+			sourceTree = "<group>";
+		};
+		4BF173862CD0AB0C008873CB /* SatouTakashiCode */ = {
+			isa = PBXGroup;
+			children = (
+				4BF173772CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift */,
+				4BB655362CD3512100A821F8 /* JjiDate1ViewController.swift */,
+				4BB655382CD3523E00A821F8 /* JjiDate2ViewController.swift */,
+				4BB655412CD35DBC00A821F8 /* JjiDate3ViewController.swift */,
+			);
+			path = SatouTakashiCode;
+			sourceTree = "<group>";
+		};
+		4BF173872CD0AB40008873CB /* SonoyamaTakeru */ = {
+			isa = PBXGroup;
+			children = (
+				4BF173882CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift */,
+				4BB6553D2CD3592D00A821F8 /* StDate1ViewController.swift */,
+				4BC6550D2CDB3E92006E581E /* StDate2ViewController.swift */,
+			);
+			path = SonoyamaTakeru;
+			sourceTree = "<group>";
+		};
+		4BF1738A2CD0B2A4008873CB /* SonoyamaTakeruAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4BC655092CDB3D3D006E581E /* StDate1.mp4 */,
+				4BC6550B2CDB3D4C006E581E /* StDate2.mp4 */,
+			);
+			path = SonoyamaTakeruAssets;
+			sourceTree = "<group>";
+		};
+		4BF1738B2CD0B2C3008873CB /* SatouTakashiAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4BB655342CD34EE200A821F8 /* JjiDate1.mp4 */,
+				4BB6553B2CD3578C00A821F8 /* JjiDate2.mp4 */,
+				4BB6553F2CD35D4800A821F8 /* JjiDate3.mp4 */,
+			);
+			path = SatouTakashiAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,17 +372,23 @@
 				4B5228DA2CC62C6E00427F75 /* FirstDate.mp4 in Resources */,
 				4B559BEA2CA52970004C3004 /* MatchingYamauchiKouki.mp4 in Resources */,
 				4B5228EA2CCA1A8200427F75 /* TiBar2.mp4 in Resources */,
+				4BB655352CD34EE200A821F8 /* JjiDate1.mp4 in Resources */,
 				4BF1735C2CCB6B53008873CB /* TiBar4.mp4 in Resources */,
 				4B559BEC2CA52970004C3004 /* MatchingSatouTakashi.mp4 in Resources */,
+				4BB655402CD35D4800A821F8 /* JjiDate3.mp4 in Resources */,
 				4B5228E82CCA1A7900427F75 /* TiBar1.mp4 in Resources */,
+				4BC6550C2CDB3D4C006E581E /* StDate2.mp4 in Resources */,
+				4BC6550A2CDB3D3D006E581E /* StDate1.mp4 in Resources */,
 				4BF173722CCB741B008873CB /* YkDate1.mp4 in Resources */,
 				4B5228E62CCA1A7000427F75 /* TiDate2.mp4 in Resources */,
 				4B57D6632BF5CADE00AE03A0 /* Main.storyboard in Resources */,
 				4B559BE92CA52970004C3004 /* MatchingTanakaIssin.mp4 in Resources */,
+				4BB6553C2CD3578C00A821F8 /* JjiDate2.mp4 in Resources */,
 				4BF173682CCB6D56008873CB /* SrDate2.mp4 in Resources */,
 				4B5228F02CCA1D6A00427F75 /* TiBar3.mp4 in Resources */,
 				4BF173662CCB6D4A008873CB /* SrDate1.mp4 in Resources */,
 				4B559BE82CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 in Resources */,
+				4BB6553A2CD3548200A821F8 /* TiDate1.mp4 in Resources */,
 				4B5228D62CC6230500427F75 /* Assets.xcassets in Resources */,
 				4B559BEB2CA52970004C3004 /* MatchingSayamaRiku.mp4 in Resources */,
 				4BF173742CCB7423008873CB /* YkDate2.mp4 in Resources */,
@@ -321,17 +404,22 @@
 			files = (
 				4B5228E02CCA14E600427F75 /* TiDate2ViewController.swift in Sources */,
 				4BF173762CD0A174008873CB /* SrDate3ViewController.swift in Sources */,
+				4BB655332CD348AD00A821F8 /* SrDate0ViewController.swift in Sources */,
 				4BF173702CCB7209008873CB /* YkDate2ViewController.swift in Sources */,
 				4BF1736C2CCB6DAE008873CB /* SrDate2ViewController.swift in Sources */,
 				4BF173642CCB6BED008873CB /* TiBar6ViewController.swift in Sources */,
 				4B5228F62CCA1FFF00427F75 /* TiBar4ViewController.swift in Sources */,
 				4B30E9442C3FB175006D2F3F /* MojiHyoujiViewController.swift in Sources */,
+				4BB655422CD35DBC00A821F8 /* JjiDate3ViewController.swift in Sources */,
 				4B5228DD2CCA0FDC00427F75 /* TiDate1ViewController.swift in Sources */,
 				4B57D6602BF5CADE00AE03A0 /* ViewController.swift in Sources */,
 				4BF0FB8B2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift in Sources */,
 				4BF1737D2CD0A6FA008873CB /* MatchingSayamaRikuViewController.swift in Sources */,
+				4BB6553E2CD3592D00A821F8 /* StDate1ViewController.swift in Sources */,
 				4B57D65C2BF5CADE00AE03A0 /* AppDelegate.swift in Sources */,
+				4BF173892CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift in Sources */,
 				4B559BEE2CAFB269004C3004 /* DateYamauchiKoukiViewController.swift in Sources */,
+				4BB655392CD3523E00A821F8 /* JjiDate2ViewController.swift in Sources */,
 				4B5228EC2CCA1BDE00427F75 /* TiBar1ViewController.swift in Sources */,
 				4B7596F72CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift in Sources */,
 				4BF1736E2CCB71CF008873CB /* YkDate1ViewController.swift in Sources */,
@@ -339,8 +427,10 @@
 				4BF173622CCB6BC1008873CB /* TiBar5ViewController.swift in Sources */,
 				4BF173782CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift in Sources */,
 				4BF4F9822C2BE6150073A443 /* UserSelect.swift in Sources */,
+				4BC6550E2CDB3E92006E581E /* StDate2ViewController.swift in Sources */,
 				4B5228F22CCA1E9C00427F75 /* TiBar3ViewController.swift in Sources */,
 				4BF1736A2CCB6D81008873CB /* SrDate1ViewController.swift in Sources */,
+				4BB655372CD3512100A821F8 /* JjiDate1ViewController.swift in Sources */,
 				4B5228EE2CCA1BF600427F75 /* TiBar2ViewController.swift in Sources */,
 				4B57D65E2BF5CADE00AE03A0 /* SceneDelegate.swift in Sources */,
 			);

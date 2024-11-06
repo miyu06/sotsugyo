@@ -1,17 +1,22 @@
+//
+//  dateViewController.swift
+//  sotsugyo
+//
+//  Created by clark on 2024/10/04.
+//
 import UIKit
 import AVFoundation
 import AVKit
 
-class MatchingSayamaRikuViewController: UIViewController {
+class SrDate0ViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("a")
     }
-    //ここまでかけた
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         playvideo()
@@ -19,10 +24,11 @@ class MatchingSayamaRikuViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "MatchingSayamaRiku", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "FirstDate", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
+        
         let videoURL = URL(fileURLWithPath: filePath)
         self.player = AVPlayer(url: videoURL) // ここで self.player に代入
         
@@ -37,6 +43,7 @@ class MatchingSayamaRikuViewController: UIViewController {
         videoView.layer.addSublayer(self.playerLayer)
         
         self.player.play() // プレイヤーを再生
+        print("iikanji")
         
         // ボタンを作成して動画ビューの上に追加
         let nextButton = UIButton(type: .system)
@@ -52,9 +59,8 @@ class MatchingSayamaRikuViewController: UIViewController {
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
         print("次の画面")
         // 次の画面に遷移
-        let nextViewController = SrDate0ViewController()
+        let nextViewController = SrDate1ViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }
 }
-

@@ -14,7 +14,7 @@ class UserSelect: UIViewController{
         super.viewDidLoad()
     }
     @IBAction func Confirm(_ sender: UIButton){
-        let alert = UIAlertController(title: "タイトル", message: "メッセージ", preferredStyle: .alert)
+        let alert = UIAlertController(title: "この方とマッチングしますか？", message: "", preferredStyle: .alert)
         let ok = UIAlertAction(title: "OK", style: .default) { (action) in
             self.performSegue(withIdentifier: self.nextpage[Int(sender.tag) - 1], sender: nil)
         }

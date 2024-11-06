@@ -2,12 +2,12 @@ import UIKit
 import AVFoundation
 import AVKit
 
-class MatchingSayamaRikuViewController: UIViewController {
+class StDate1ViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
     
-    override func viewDidLoad() {
+    override func viewDidLoad(){
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -19,7 +19,7 @@ class MatchingSayamaRikuViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "MatchingSayamaRiku", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "StDate1", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
@@ -37,6 +37,7 @@ class MatchingSayamaRikuViewController: UIViewController {
         videoView.layer.addSublayer(self.playerLayer)
         
         self.player.play() // プレイヤーを再生
+        print("iikanji")
         
         // ボタンを作成して動画ビューの上に追加
         let nextButton = UIButton(type: .system)
@@ -52,9 +53,8 @@ class MatchingSayamaRikuViewController: UIViewController {
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
         print("次の画面")
         // 次の画面に遷移
-        let nextViewController = SrDate0ViewController()
+        let nextViewController = StDate2ViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }
 }
-
