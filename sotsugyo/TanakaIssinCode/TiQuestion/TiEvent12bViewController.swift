@@ -1,22 +1,18 @@
-//
-//  dateViewController.swift
-//  sotsugyo
-//
-//  Created by clark on 2024/10/04.
-//
 import UIKit
 import AVFoundation
 import AVKit
 
-class TiBar6ViewController: UIViewController {
+class TiQuestion12bViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
     
-    override func viewDidLoad() {
+    override func viewDidLoad(){
         super.viewDidLoad()
-        print("a")
+        print("12bだよぉ")
+        // Do any additional setup after loading the view.
     }
+    //ここまでかけた
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         playvideo()
@@ -24,7 +20,7 @@ class TiBar6ViewController: UIViewController {
     }
     
     @objc func playvideo() {
-        guard let filePath = Bundle.main.path(forResource: "TiBar6", ofType: "mp4") else {
+        guard let filePath = Bundle.main.path(forResource: "TiQuestion12b", ofType: "mp4") else {
             print("動画が見つからない")
             return
         }
@@ -42,6 +38,7 @@ class TiBar6ViewController: UIViewController {
         videoView.layer.addSublayer(self.playerLayer)
         
         self.player.play() // プレイヤーを再生
+        print("iikanji")
         
         // ボタンを作成して動画ビューの上に追加
         let nextButton = UIButton(type: .system)
@@ -57,7 +54,7 @@ class TiBar6ViewController: UIViewController {
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
         print("次の画面")
         // 次の画面に遷移
-        let nextViewController = TiBar7ViewController()
+        let nextViewController = TiQuestion12bViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }

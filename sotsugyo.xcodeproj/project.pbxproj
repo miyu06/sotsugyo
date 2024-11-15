@@ -44,6 +44,37 @@
 		4BC6550A2CDB3D3D006E581E /* StDate1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655092CDB3D3D006E581E /* StDate1.mp4 */; };
 		4BC6550C2CDB3D4C006E581E /* StDate2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6550B2CDB3D4C006E581E /* StDate2.mp4 */; };
 		4BC6550E2CDB3E92006E581E /* StDate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6550D2CDB3E92006E581E /* StDate2ViewController.swift */; };
+		4BC655102CDB435A006E581E /* TiBar7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6550F2CDB4359006E581E /* TiBar7.mp4 */; };
+		4BC655122CDB4366006E581E /* TiBar7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655112CDB4366006E581E /* TiBar7ViewController.swift */; };
+		4BC655142CDB470B006E581E /* TiBar8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655132CDB470B006E581E /* TiBar8ViewController.swift */; };
+		4BC655162CDB4728006E581E /* TiBar8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655152CDB4728006E581E /* TiBar8.mp4 */; };
+		4BC655182CDC84C4006E581E /* TiBar9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655172CDC84C4006E581E /* TiBar9ViewController.swift */; };
+		4BC6551C2CDC8F28006E581E /* TiBar11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6551B2CDC8F28006E581E /* TiBar11.mp4 */; };
+		4BC6551E2CDC9497006E581E /* TiGive12aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6551D2CDC9497006E581E /* TiGive12aViewController.swift */; };
+		4BC655222CDC9547006E581E /* TiRefuse12cViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655212CDC9547006E581E /* TiRefuse12cViewController.swift */; };
+		4BC655262CDDD4A1006E581E /* TiEvent11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655252CDDD4A1006E581E /* TiEvent11ViewController.swift */; };
+		4BC655282CDDE2CF006E581E /* StDate0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655272CDDE2CF006E581E /* StDate0ViewController.swift */; };
+		4BC6552A2CDDE9F8006E581E /* TiBar9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655292CDDE9F8006E581E /* TiBar9.mp4 */; };
+		4BC6552C2CDDEA00006E581E /* TiBar10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6552B2CDDEA00006E581E /* TiBar10.mp4 */; };
+		4BC6552E2CDDEA63006E581E /* TiBar10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6552D2CDDEA63006E581E /* TiBar10ViewController.swift */; };
+		4BC655332CE5C248006E581E /* TiGive13aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655322CE5C248006E581E /* TiGive13aViewController.swift */; };
+		4BC655352CE5C940006E581E /* TiGive14aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655342CE5C940006E581E /* TiGive14aViewController.swift */; };
+		4BC655382CE5CA00006E581E /* TiQuestion12bViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655372CE5CA00006E581E /* TiQuestion12bViewController.swift */; };
+		4BC6553A2CE5CB1F006E581E /* TiGive12a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655392CE5CB1F006E581E /* TiGive12a.mp4 */; };
+		4BC6553C2CE5CB2A006E581E /* TiGive13a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6553B2CE5CB2A006E581E /* TiGive13a.mp4 */; };
+		4BC6553E2CE5CB36006E581E /* TiGive14a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6553D2CE5CB36006E581E /* TiGive14a.mp4 */; };
+		4BC655402CE5CB89006E581E /* TiRefuse12c.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6553F2CE5CB89006E581E /* TiRefuse12c.mp4 */; };
+		4BC655422CE5CB99006E581E /* TiRefuse13c.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655412CE5CB99006E581E /* TiRefuse13c.mp4 */; };
+		4BC655442CE5CBA4006E581E /* TiRefuse14c.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655432CE5CBA3006E581E /* TiRefuse14c.mp4 */; };
+		4BC655462CE5CC28006E581E /* TiRefuse13cViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655452CE5CC28006E581E /* TiRefuse13cViewController.swift */; };
+		4BC655482CE5CCD7006E581E /* TiRefuse14cViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655472CE5CCD7006E581E /* TiRefuse14cViewController.swift */; };
+		4BC6554A2CE5D08F006E581E /* TiGiveEnd1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC655492CE5D08F006E581E /* TiGiveEnd1.mp4 */; };
+		4BC6554C2CE5D099006E581E /* TiGiveEnd2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6554B2CE5D099006E581E /* TiGiveEnd2.mp4 */; };
+		4BC6554E2CE5D0AB006E581E /* TiGiveEnd3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6554D2CE5D0AB006E581E /* TiGiveEnd3.mp4 */; };
+		4BC655502CE5D0E5006E581E /* TiGiveEnd1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6554F2CE5D0E5006E581E /* TiGiveEnd1ViewController.swift */; };
+		4BC655522CE5D11E006E581E /* TiGiveEnd2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655512CE5D11E006E581E /* TiGiveEnd2ViewController.swift */; };
+		4BC655542CE5D157006E581E /* TiGIveEnd3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655532CE5D157006E581E /* TiGIveEnd3ViewController.swift */; };
+		4BC655562CE6CF00006E581E /* TiGiveLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC655552CE6CF00006E581E /* TiGiveLastViewController.swift */; };
 		4BF0FB8B2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */; };
 		4BF0FB8D2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */; };
 		4BF1735C2CCB6B53008873CB /* TiBar4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */; };
@@ -105,6 +136,37 @@
 		4BC655092CDB3D3D006E581E /* StDate1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = StDate1.mp4; sourceTree = "<group>"; };
 		4BC6550B2CDB3D4C006E581E /* StDate2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = StDate2.mp4; sourceTree = "<group>"; };
 		4BC6550D2CDB3E92006E581E /* StDate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StDate2ViewController.swift; sourceTree = "<group>"; };
+		4BC6550F2CDB4359006E581E /* TiBar7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar7.mp4; sourceTree = "<group>"; };
+		4BC655112CDB4366006E581E /* TiBar7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar7ViewController.swift; sourceTree = "<group>"; };
+		4BC655132CDB470B006E581E /* TiBar8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar8ViewController.swift; sourceTree = "<group>"; };
+		4BC655152CDB4728006E581E /* TiBar8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar8.mp4; sourceTree = "<group>"; };
+		4BC655172CDC84C4006E581E /* TiBar9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar9ViewController.swift; sourceTree = "<group>"; };
+		4BC6551B2CDC8F28006E581E /* TiBar11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar11.mp4; sourceTree = "<group>"; };
+		4BC6551D2CDC9497006E581E /* TiGive12aViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGive12aViewController.swift; sourceTree = "<group>"; };
+		4BC655212CDC9547006E581E /* TiRefuse12cViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiRefuse12cViewController.swift; sourceTree = "<group>"; };
+		4BC655252CDDD4A1006E581E /* TiEvent11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiEvent11ViewController.swift; sourceTree = "<group>"; };
+		4BC655272CDDE2CF006E581E /* StDate0ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StDate0ViewController.swift; sourceTree = "<group>"; };
+		4BC655292CDDE9F8006E581E /* TiBar9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar9.mp4; sourceTree = "<group>"; };
+		4BC6552B2CDDEA00006E581E /* TiBar10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar10.mp4; sourceTree = "<group>"; };
+		4BC6552D2CDDEA63006E581E /* TiBar10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiBar10ViewController.swift; sourceTree = "<group>"; };
+		4BC655322CE5C248006E581E /* TiGive13aViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGive13aViewController.swift; sourceTree = "<group>"; };
+		4BC655342CE5C940006E581E /* TiGive14aViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGive14aViewController.swift; sourceTree = "<group>"; };
+		4BC655372CE5CA00006E581E /* TiQuestion12bViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiQuestion12bViewController.swift; sourceTree = "<group>"; };
+		4BC655392CE5CB1F006E581E /* TiGive12a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiGive12a.mp4; sourceTree = "<group>"; };
+		4BC6553B2CE5CB2A006E581E /* TiGive13a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiGive13a.mp4; sourceTree = "<group>"; };
+		4BC6553D2CE5CB36006E581E /* TiGive14a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiGive14a.mp4; sourceTree = "<group>"; };
+		4BC6553F2CE5CB89006E581E /* TiRefuse12c.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiRefuse12c.mp4; sourceTree = "<group>"; };
+		4BC655412CE5CB99006E581E /* TiRefuse13c.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiRefuse13c.mp4; sourceTree = "<group>"; };
+		4BC655432CE5CBA3006E581E /* TiRefuse14c.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiRefuse14c.mp4; sourceTree = "<group>"; };
+		4BC655452CE5CC28006E581E /* TiRefuse13cViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiRefuse13cViewController.swift; sourceTree = "<group>"; };
+		4BC655472CE5CCD7006E581E /* TiRefuse14cViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiRefuse14cViewController.swift; sourceTree = "<group>"; };
+		4BC655492CE5D08F006E581E /* TiGiveEnd1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiGiveEnd1.mp4; sourceTree = "<group>"; };
+		4BC6554B2CE5D099006E581E /* TiGiveEnd2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiGiveEnd2.mp4; sourceTree = "<group>"; };
+		4BC6554D2CE5D0AB006E581E /* TiGiveEnd3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiGiveEnd3.mp4; sourceTree = "<group>"; };
+		4BC6554F2CE5D0E5006E581E /* TiGiveEnd1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGiveEnd1ViewController.swift; sourceTree = "<group>"; };
+		4BC655512CE5D11E006E581E /* TiGiveEnd2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGiveEnd2ViewController.swift; sourceTree = "<group>"; };
+		4BC655532CE5D157006E581E /* TiGIveEnd3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGIveEnd3ViewController.swift; sourceTree = "<group>"; };
+		4BC655552CE6CF00006E581E /* TiGiveLastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiGiveLastViewController.swift; sourceTree = "<group>"; };
 		4BF0FB8A2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingTanakaIssinViewController.swift; sourceTree = "<group>"; };
 		4BF0FB8C2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTanakaIssinViewController.swift; sourceTree = "<group>"; };
 		4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TiBar4.mp4; sourceTree = "<group>"; };
@@ -183,6 +245,38 @@
 			path = sotsugyo;
 			sourceTree = "<group>";
 		};
+		4BC6552F2CE5C1EF006E581E /* EventA */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6551D2CDC9497006E581E /* TiGive12aViewController.swift */,
+				4BC655322CE5C248006E581E /* TiGive13aViewController.swift */,
+				4BC655342CE5C940006E581E /* TiGive14aViewController.swift */,
+				4BC6554F2CE5D0E5006E581E /* TiGiveEnd1ViewController.swift */,
+				4BC655512CE5D11E006E581E /* TiGiveEnd2ViewController.swift */,
+				4BC655532CE5D157006E581E /* TiGIveEnd3ViewController.swift */,
+				4BC655552CE6CF00006E581E /* TiGiveLastViewController.swift */,
+			);
+			path = EventA;
+			sourceTree = "<group>";
+		};
+		4BC655312CE5C210006E581E /* RefuseC */ = {
+			isa = PBXGroup;
+			children = (
+				4BC655212CDC9547006E581E /* TiRefuse12cViewController.swift */,
+				4BC655452CE5CC28006E581E /* TiRefuse13cViewController.swift */,
+				4BC655472CE5CCD7006E581E /* TiRefuse14cViewController.swift */,
+			);
+			path = RefuseC;
+			sourceTree = "<group>";
+		};
+		4BC655362CE5C9B4006E581E /* TiQuestionB */ = {
+			isa = PBXGroup;
+			children = (
+				4BC655372CE5CA00006E581E /* TiQuestion12bViewController.swift */,
+			);
+			path = TiQuestionB;
+			sourceTree = "<group>";
+		};
 		4BF173792CD0A633008873CB /* YamauchiKoukiCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +301,14 @@
 				4B5228F52CCA1FFF00427F75 /* TiBar4ViewController.swift */,
 				4BF173612CCB6BC1008873CB /* TiBar5ViewController.swift */,
 				4BF173632CCB6BED008873CB /* TiBar6ViewController.swift */,
+				4BC655112CDB4366006E581E /* TiBar7ViewController.swift */,
+				4BC655132CDB470B006E581E /* TiBar8ViewController.swift */,
+				4BC655172CDC84C4006E581E /* TiBar9ViewController.swift */,
+				4BC6552D2CDDEA63006E581E /* TiBar10ViewController.swift */,
+				4BC655252CDDD4A1006E581E /* TiEvent11ViewController.swift */,
+				4BC6552F2CE5C1EF006E581E /* EventA */,
+				4BC655362CE5C9B4006E581E /* TiQuestionB */,
+				4BC655312CE5C210006E581E /* RefuseC */,
 			);
 			path = TanakaIssinCode;
 			sourceTree = "<group>";
@@ -255,6 +357,20 @@
 				4BF1735B2CCB6B53008873CB /* TiBar4.mp4 */,
 				4BF1735D2CCB6B5D008873CB /* TiBar5.mp4 */,
 				4BF1735F2CCB6B68008873CB /* TiBar6.mp4 */,
+				4BC6550F2CDB4359006E581E /* TiBar7.mp4 */,
+				4BC655152CDB4728006E581E /* TiBar8.mp4 */,
+				4BC655292CDDE9F8006E581E /* TiBar9.mp4 */,
+				4BC6552B2CDDEA00006E581E /* TiBar10.mp4 */,
+				4BC6551B2CDC8F28006E581E /* TiBar11.mp4 */,
+				4BC655392CE5CB1F006E581E /* TiGive12a.mp4 */,
+				4BC6553B2CE5CB2A006E581E /* TiGive13a.mp4 */,
+				4BC6553D2CE5CB36006E581E /* TiGive14a.mp4 */,
+				4BC655492CE5D08F006E581E /* TiGiveEnd1.mp4 */,
+				4BC6554B2CE5D099006E581E /* TiGiveEnd2.mp4 */,
+				4BC6554D2CE5D0AB006E581E /* TiGiveEnd3.mp4 */,
+				4BC6553F2CE5CB89006E581E /* TiRefuse12c.mp4 */,
+				4BC655412CE5CB99006E581E /* TiRefuse13c.mp4 */,
+				4BC655432CE5CBA3006E581E /* TiRefuse14c.mp4 */,
 			);
 			path = TanakaIssinAssets;
 			sourceTree = "<group>";
@@ -283,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				4BF173882CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift */,
+				4BC655272CDDE2CF006E581E /* StDate0ViewController.swift */,
 				4BB6553D2CD3592D00A821F8 /* StDate1ViewController.swift */,
 				4BC6550D2CDB3E92006E581E /* StDate2ViewController.swift */,
 			);
@@ -367,17 +484,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BF1735E2CCB6B5D008873CB /* TiBar5.mp4 in Resources */,
+				4BC6551C2CDC8F28006E581E /* TiBar11.mp4 in Resources */,
 				4B57D6682BF5CAE100AE03A0 /* LaunchScreen.storyboard in Resources */,
+				4BC6553C2CE5CB2A006E581E /* TiGive13a.mp4 in Resources */,
 				4BF173602CCB6B68008873CB /* TiBar6.mp4 in Resources */,
+				4BC6554C2CE5D099006E581E /* TiGiveEnd2.mp4 in Resources */,
 				4B5228DA2CC62C6E00427F75 /* FirstDate.mp4 in Resources */,
+				4BC6554E2CE5D0AB006E581E /* TiGiveEnd3.mp4 in Resources */,
 				4B559BEA2CA52970004C3004 /* MatchingYamauchiKouki.mp4 in Resources */,
 				4B5228EA2CCA1A8200427F75 /* TiBar2.mp4 in Resources */,
 				4BB655352CD34EE200A821F8 /* JjiDate1.mp4 in Resources */,
+				4BC655402CE5CB89006E581E /* TiRefuse12c.mp4 in Resources */,
+				4BC655162CDB4728006E581E /* TiBar8.mp4 in Resources */,
 				4BF1735C2CCB6B53008873CB /* TiBar4.mp4 in Resources */,
 				4B559BEC2CA52970004C3004 /* MatchingSatouTakashi.mp4 in Resources */,
 				4BB655402CD35D4800A821F8 /* JjiDate3.mp4 in Resources */,
 				4B5228E82CCA1A7900427F75 /* TiBar1.mp4 in Resources */,
 				4BC6550C2CDB3D4C006E581E /* StDate2.mp4 in Resources */,
+				4BC6552C2CDDEA00006E581E /* TiBar10.mp4 in Resources */,
+				4BC6552A2CDDE9F8006E581E /* TiBar9.mp4 in Resources */,
 				4BC6550A2CDB3D3D006E581E /* StDate1.mp4 in Resources */,
 				4BF173722CCB741B008873CB /* YkDate1.mp4 in Resources */,
 				4B5228E62CCA1A7000427F75 /* TiDate2.mp4 in Resources */,
@@ -385,11 +510,17 @@
 				4B559BE92CA52970004C3004 /* MatchingTanakaIssin.mp4 in Resources */,
 				4BB6553C2CD3578C00A821F8 /* JjiDate2.mp4 in Resources */,
 				4BF173682CCB6D56008873CB /* SrDate2.mp4 in Resources */,
+				4BC655442CE5CBA4006E581E /* TiRefuse14c.mp4 in Resources */,
+				4BC655102CDB435A006E581E /* TiBar7.mp4 in Resources */,
+				4BC6553A2CE5CB1F006E581E /* TiGive12a.mp4 in Resources */,
 				4B5228F02CCA1D6A00427F75 /* TiBar3.mp4 in Resources */,
+				4BC655422CE5CB99006E581E /* TiRefuse13c.mp4 in Resources */,
 				4BF173662CCB6D4A008873CB /* SrDate1.mp4 in Resources */,
+				4BC6553E2CE5CB36006E581E /* TiGive14a.mp4 in Resources */,
 				4B559BE82CA52970004C3004 /* MatchingSonoyamaTakeru.mp4 in Resources */,
 				4BB6553A2CD3548200A821F8 /* TiDate1.mp4 in Resources */,
 				4B5228D62CC6230500427F75 /* Assets.xcassets in Resources */,
+				4BC6554A2CE5D08F006E581E /* TiGiveEnd1.mp4 in Resources */,
 				4B559BEB2CA52970004C3004 /* MatchingSayamaRiku.mp4 in Resources */,
 				4BF173742CCB7423008873CB /* YkDate2.mp4 in Resources */,
 			);
@@ -402,27 +533,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC655142CDB470B006E581E /* TiBar8ViewController.swift in Sources */,
 				4B5228E02CCA14E600427F75 /* TiDate2ViewController.swift in Sources */,
+				4BC655542CE5D157006E581E /* TiGIveEnd3ViewController.swift in Sources */,
 				4BF173762CD0A174008873CB /* SrDate3ViewController.swift in Sources */,
 				4BB655332CD348AD00A821F8 /* SrDate0ViewController.swift in Sources */,
 				4BF173702CCB7209008873CB /* YkDate2ViewController.swift in Sources */,
 				4BF1736C2CCB6DAE008873CB /* SrDate2ViewController.swift in Sources */,
 				4BF173642CCB6BED008873CB /* TiBar6ViewController.swift in Sources */,
 				4B5228F62CCA1FFF00427F75 /* TiBar4ViewController.swift in Sources */,
+				4BC655462CE5CC28006E581E /* TiRefuse13cViewController.swift in Sources */,
+				4BC6552E2CDDEA63006E581E /* TiBar10ViewController.swift in Sources */,
 				4B30E9442C3FB175006D2F3F /* MojiHyoujiViewController.swift in Sources */,
 				4BB655422CD35DBC00A821F8 /* JjiDate3ViewController.swift in Sources */,
+				4BC655352CE5C940006E581E /* TiGive14aViewController.swift in Sources */,
+				4BC655522CE5D11E006E581E /* TiGiveEnd2ViewController.swift in Sources */,
 				4B5228DD2CCA0FDC00427F75 /* TiDate1ViewController.swift in Sources */,
+				4BC655262CDDD4A1006E581E /* TiEvent11ViewController.swift in Sources */,
 				4B57D6602BF5CADE00AE03A0 /* ViewController.swift in Sources */,
+				4BC6551E2CDC9497006E581E /* TiGive12aViewController.swift in Sources */,
 				4BF0FB8B2CC619D000BF7D75 /* MatchingTanakaIssinViewController.swift in Sources */,
 				4BF1737D2CD0A6FA008873CB /* MatchingSayamaRikuViewController.swift in Sources */,
+				4BC655122CDB4366006E581E /* TiBar7ViewController.swift in Sources */,
+				4BC655482CE5CCD7006E581E /* TiRefuse14cViewController.swift in Sources */,
+				4BC655182CDC84C4006E581E /* TiBar9ViewController.swift in Sources */,
+				4BC655502CE5D0E5006E581E /* TiGiveEnd1ViewController.swift in Sources */,
 				4BB6553E2CD3592D00A821F8 /* StDate1ViewController.swift in Sources */,
+				4BC655222CDC9547006E581E /* TiRefuse12cViewController.swift in Sources */,
 				4B57D65C2BF5CADE00AE03A0 /* AppDelegate.swift in Sources */,
 				4BF173892CD0AB9E008873CB /* MatchingSonoyamaTakeruViewController.swift in Sources */,
+				4BC655332CE5C248006E581E /* TiGive13aViewController.swift in Sources */,
 				4B559BEE2CAFB269004C3004 /* DateYamauchiKoukiViewController.swift in Sources */,
 				4BB655392CD3523E00A821F8 /* JjiDate2ViewController.swift in Sources */,
 				4B5228EC2CCA1BDE00427F75 /* TiBar1ViewController.swift in Sources */,
 				4B7596F72CB7A2BF00F1097C /* MatchingYamauchiKouikiOneViewController.swift in Sources */,
+				4BC655282CDDE2CF006E581E /* StDate0ViewController.swift in Sources */,
 				4BF1736E2CCB71CF008873CB /* YkDate1ViewController.swift in Sources */,
+				4BC655562CE6CF00006E581E /* TiGiveLastViewController.swift in Sources */,
+				4BC655382CE5CA00006E581E /* TiQuestion12bViewController.swift in Sources */,
 				4BF0FB8D2CC61AE300BF7D75 /* DateTanakaIssinViewController.swift in Sources */,
 				4BF173622CCB6BC1008873CB /* TiBar5ViewController.swift in Sources */,
 				4BF173782CD0A628008873CB /* MatchingSatouTakashiViewControllerViewController.swift in Sources */,
