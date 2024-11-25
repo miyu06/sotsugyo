@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import AVFAudio
+import AVFoundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    let sound_data = NSDataAsset(name: "BadEnd")!
+    var audioPlayer:AVAudioPlayer! = AVAudioPlayer()
+    var videoPlayer:AVPlayer! = AVPlayer()
 
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

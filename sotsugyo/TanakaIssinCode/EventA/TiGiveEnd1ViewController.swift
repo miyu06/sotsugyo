@@ -1,17 +1,25 @@
 import UIKit
 import AVFoundation
 import AVKit
+import AVFAudio
 
-class TiGiveEnd1ViewController: UIViewController {
+   class TiGiveEnd1ViewController: UIViewController {
     
     var player: AVPlayer!
     var playerLayer: AVPlayerLayer!
+    var audioPlayer:AVAudioPlayer! = AVAudioPlayer()
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let sound_data = NSDataAsset(name: "BadEnd")!
+        appDelegate.audioPlayer =  try! AVAudioPlayer(data: sound_data.data, fileTypeHint: "mp3")
+        appDelegate.audioPlayer.play()
+        appDelegate.audioPlayer.volume = 1
+        appDelegate.audioPlayer.numberOfLoops = -1      //音楽ループ
         // Do any additional setup after loading the view.
     }
-    //ここまでかけた
+       
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         playvideo()

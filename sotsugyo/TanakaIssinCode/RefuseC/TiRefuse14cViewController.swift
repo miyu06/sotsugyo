@@ -53,7 +53,7 @@ class TiRefuse14cViewController: UIViewController {
         self.playerLayer.removeFromSuperlayer() // レイヤーを削除
         print("次の画面")
         // 次の画面に遷移
-        let nextViewController = TiRefuse14cViewController()
+        let nextViewController = TiRefuse15cViewController()
         nextViewController.modalPresentationStyle = .fullScreen
         present(nextViewController, animated: true, completion: nil)
     }
